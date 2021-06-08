@@ -1,0 +1,35 @@
+.form {
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.form label {
+    display: block;
+
+}
+
+.form__button {
+
+}
+
+.form__button--submit {
+    display: inline-block;
+    padding: 7px 5px;
+}
+
+.form__footer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form input {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 7px 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}

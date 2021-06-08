@@ -1,0 +1,6 @@
+export default {
+  LOGIN_PENDING: 'auth/LOGIN_PENDING',
+  LOGIN_SUCCESS: 'auth/LOGIN_SUCCESS',
+  LOGIN_ERROR: 'auth/LOGIN_ERROR',
+  LOGOUT: 'auth/LOGOUT',
+};

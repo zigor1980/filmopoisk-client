@@ -1,0 +1,29 @@
+.user-dashboard {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.user-dashboard__info {
+    flex: 1 1 100%;
+}
+
+.user-dashboard__poster {
+    flex: 1 1 500px;
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+.user-dashboard__poster > img {
+    width: 100%;
+}
+
+.user-dashboard__films-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.user-dashboard__name {
+    font-size: 24px;
+    font-weight: 600;
+}

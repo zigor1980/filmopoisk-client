@@ -1,0 +1,6 @@
+.sidebar {
+    flex: 1 1 200px;
+    max-width: 200px;
+    align-self: stretch;
+    background-color: #ccc;
+}

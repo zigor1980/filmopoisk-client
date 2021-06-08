@@ -1,0 +1,20 @@
+.film-overview {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.film-overview__poster {
+    flex: 1 1 500px;
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+.film-overview__poster > img {
+    width: 100%;
+}
+
+.film-overview__title {
+    font-size: 24px;
+    font-weight: 600;
+}

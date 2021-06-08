@@ -1,0 +1,7 @@
+export default {
+  FETCH_PENDING: 'films/FETCH_PENDING',
+  FETCH_SUCCESS: 'films/FETCH_SUCCESS',
+  FETCH_ERROR: 'films/FETCH_ERROR',
+  SET_CURRENT: 'films/SET_CURRENT',
+  UPDATE_FILM: 'films/UPDATE_FILM',
+};

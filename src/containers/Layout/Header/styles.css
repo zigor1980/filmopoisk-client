@@ -1,0 +1,21 @@
+.header {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 28);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.header__content {
+    flex: 1 1 100%
+}
+
+.header__profile-link {
+    flex: 0 0 auto;
+    text-decoration: none;
+    font-size: 18px;
+    color: orange;
+}
+
