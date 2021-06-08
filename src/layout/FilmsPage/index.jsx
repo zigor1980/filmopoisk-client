@@ -23,7 +23,7 @@ export default function FilmsPage() {
         <Header>Films</Header>
         <Content>
           <div className="films-list">
-            {films.map((film) => <FilmCard film={film} />)}
+            {films.map((film) => <FilmCard key={film.id} film={film} />)}
           </div>
         </Content>
         <Footer />

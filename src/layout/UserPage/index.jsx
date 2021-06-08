@@ -37,7 +37,7 @@ export default function FilmPage() {
                 {user.last_name}
               </p>
               <div className="user-dashboard__films-list">
-                {(user.Films || []).map((film) => <FilmCard film={film} />)}
+                {(user.Films || []).map((film) => <FilmCard key={film.id} film={film} />)}
               </div>
             </div>
           </div>
